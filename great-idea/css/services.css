@@ -31,9 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -83,74 +81,80 @@ a{
 .header-img{
 	display: inline-block;
 }
-h1{
-	font-size:64px;
-}
 
 
 
+/* services header img */
 
 
-.heading{
-	margin-top: 70px;
-	margin-left: 250px;
-	text-align: center;
-}
-.title{
-	
-	position: absolute;
-	margin-left:-260px;
+.services-header-img{
 	margin-top:50px;
+	width:100%;
+}
+
+/* services content */
+.services-header{
+	margin-left: 70px;
+	width:100%;
+	margin-bottom: 50px;
+}
+.services-header p {
+	width:70%;
+}
+h1{
+	font-size:32px;
+}
+
+/* flex container */
+.flex-container{
+	display:flex;
+	margin-left:70px;
+	justify-content: space-between;
 	
+}
+.flex-item{
+	width:48%;
+	border:2px black solid;
+	padding:15px;
+	margin-top:50px;
+	background-color:lightgrey;
+}
+
+ul{
+	list-style-position: inside;
+	list-style: square;
+}
+li{
+	margin-left:25px;
 }
 button{
+	margin-top:15px;
 	background: white;
 	padding:15px;
 	border-color:black;
 }
-.middle-cont{
-	margin-left: 200px;
+
+.bottom-flex{
+	margin-top: 50px;
+	display:flex;
+	margin-left:90px;
+	justify-content: space-between;
 }
-.mid-top-cont{
-	display:inline-block;
-	width:100%;
-}
-.mid-top-card{
-	width:35%;
-	margin-left:50px;
-	display:inline-block;
-}
-.mid-bot-cont{
-	display:inline-block;
-	width:100%;
-	margin-left:50px;
-}
-.mid-bot-card{
-	width:25%;
-	display: inline-block;
-	margin-bottom:90px;
-}
-img{
-	margin-left:45px;
+.bot-item{
+	width:48%;
 	
 }
-
-
-
-
-
-
-
-.address{
-	margin-left: 250px;
-	margin-bottom: 50px;
+.services-header-img{
+	padding:20px;
+}
+.flex-paragraph{
+	width:70%;
+	margin-bottom:55px;
 }
 
-
-
-
-
+/* footer */
 
 footer{
+	margin-top: 50px;
 	text-align: center;
 }
